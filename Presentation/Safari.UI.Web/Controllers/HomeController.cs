@@ -13,6 +13,7 @@ namespace Safari.UI.Web.Controllers
         {
             return View();
         }
+        [Authorize]
         [Route("acerca-de-nosotros", Name = "HomeControllerRouteAbout")]
         public ActionResult About()
         {
