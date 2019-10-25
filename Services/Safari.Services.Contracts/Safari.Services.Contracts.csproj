@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Requests\AgregarEspecieRequest.cs" />
+    <Compile Include="Responses\AgregarEspecieResponse.cs" />
+    <Compile Include="Responses\ListarTodosEspecieResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\Safari.Entities\Safari.Entities.csproj">
